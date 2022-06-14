@@ -26,7 +26,11 @@ console.log(team2014[0] ['Home Team Goals']);
 console.log(team2014[0] ['Away Team Goals']);
 
 //(e) Winner of 2014 world cup final */
-console.log(team2014[0] ['Win conditions']);
+if(team2014[0]['Home Team Goals'] > team2014[0]['Away Team Goals']){
+    console.log(team2014[0] ['Home Team Name']);
+} else {
+    console.log(team2014[0] ['Away Team Name']);
+};
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 2: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
 Use getFinals to do the following:
